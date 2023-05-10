@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="container">
+            <div class="login__photo">
+                <p class="photo_author">Photo by <a href="#" >Alexandr Popadin</a></p>
+            </div>
+            <div class="login__form">
+                <div class="login__inputs">
+                    <div class="login__logo">
+                    <img src="./src/img/icons/logo.png" alt="" class="login__icon">
+                    <img src="./src/img/icons/logo.svg" class="unicorn" width="91.5" height="14.5" alt="">
+                    </div>
+                    <h1 class="login__title">Nice to see you again
+                    </h1>
+                    <form class="login-container">
+                        <label for="username">Login</label>
+                        <input type="text" class="login__input" placeholder="Email or phone number" id="username">
+                        <label for="password">Password</label>
+                        <input type="password" class="password__input" placeholder="Enter password" id="password"
+                        >
+                        <button class="show-password">
+                            <img src="./src/img/icons/eye.svg" alt="">
+                        </button>
+                        </form>
+                    <div class="remember">
+                        <form class="checkbox-form" >
+                        <input type="checkbox"  class="checkbox" id="box"/>
+                        <label class="remember-me" for="box">Remember me</label>
+                        </form>
+                        <a href="#">Forgot password?</a>
+                    </div>
+                        <button class="sign-in">Sign in</button>
+                        <button class="sign-in-google">Or sign in with Google
+                            <img class="google-icon" src="./src/img/icons/google.svg" alt="">
+                        </button>
+                        <p class="question">Dont have an account?</p>
+                        <a href="#">Sign up now</a>
+                </div>
+                <div class="copyright">
+                    <img src="./src/img/icons/figma.svg" alt="">
+                    <a href="#">@uiunicorn</a>
+                    <p class="author">© Perfect Login 2021</p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
